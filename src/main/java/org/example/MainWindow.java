@@ -587,6 +587,7 @@ public class MainWindow extends JFrame {
 
 
                 connection.close();
+                JOptionPane.showMessageDialog(null, "Zapisano dane do bazy danych ", "Informacja", JOptionPane.INFORMATION_MESSAGE);
             } catch (Exception e) {
                 JOptionPane.showMessageDialog(null, e.getMessage(), "Wewnętrzny błąd zapisu do bazy danych", JOptionPane.ERROR_MESSAGE);
                 e.printStackTrace();
