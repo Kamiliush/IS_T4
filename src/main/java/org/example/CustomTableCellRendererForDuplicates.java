@@ -16,7 +16,7 @@ public class CustomTableCellRendererForDuplicates extends DefaultTableCellRender
     private static List<LaptopEntity> laptopsShown;
     private boolean isRowDuplicate;
 
-    private Set<Integer> editedRows = new HashSet<>();
+    private static Set<Integer> editedRows = new HashSet<>();
 
     private String regex;
 
